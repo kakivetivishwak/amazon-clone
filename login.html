@@ -35,6 +35,7 @@
             margin: 10px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
+            box-sizing: border-box;
         }
 
         button {
@@ -50,6 +51,21 @@
         button:hover {
             background: #e68a00;
         }
+
+        .register-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .register-link a {
+            text-decoration: none;
+            color: #232f3e;
+            font-weight: bold;
+        }
+
+        .register-link a:hover {
+            color: #ff9900;
+        }
     </style>
 </head>
 <body>
@@ -62,6 +78,11 @@
             <input type="password" name="password" placeholder="Enter Password" required>
             <button type="submit">Login</button>
         </form>
+
+        <div class="register-link">
+            <p>Don't have an account?</p>
+            <a href="register.html">Create New Account</a>
+        </div>
     </div>
 
 </body>
