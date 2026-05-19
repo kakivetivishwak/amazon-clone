@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "Vichu@2008";
 $database = "amazon_db";
 
 $conn = new mysqli($servername, $username, $password, $database);
